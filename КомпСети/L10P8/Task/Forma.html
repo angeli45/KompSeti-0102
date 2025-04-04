@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Формы</title>
+    </head>
+    <body align="center">
+        <form>
+                Форма регистрации<br>
+            <table width="28%" align="center">
+                <tr>
+                <td align="right">Имя <br><br></td>
+                <td><input type="text" name="Name" size="20" maxlength="10" value=""><br><br></td>
+            </tr>
+            <tr>
+                <td align="right">E-mail<br><br></td> 
+                <td><input type="email" name="EM" size="20" maxlength="15" value=""><br><br></td>
+            </tr>
+            <tr>
+                <td align="right">Пароль<br><br></td> 
+                <td><input type="password" name="Pas" size="20" maxlength="10" value=""><br><br></td>
+            </tr>
+            <tr>
+                <td align="right">Повторение пароля<br><br></td>
+                <td><input type="password" name="Pas2" size="20" maxlength="10" value=""><br><br></td>
+            </tr>
+            <tr>
+                <td align="right">Пол<br><br></td>
+                <td><input type="radio" name="pol" value="М" checked>мужской
+                    <input type="radio" name="pol" value="Ж" checked>женский <br><br></td>
+            </tr>  
+            <tr>
+                <td></td>
+                <td></td>
+            </tr> 
+            <tr>
+                <td align="right">Увлечения<br><br><br><br><br><br><br><br></td>
+                <td><select name="Hobby" size="7">
+                <option selected value="PC">Компьютеры</option>
+                <option value="Sport">Спорт</option>
+                <option value="Game">Игры</option>
+                <option value="Animals">Животные</option>
+                <option value="Auto">Автомобили</option>
+                <option value="Club">Клубы</option>
+                <option value="Music">Музыка</option>
+            </select><br><br></td>
+            </tr>
+            <tr>
+                <td align="right">Ваши пожелания<br><br><br><br><br><br></td>
+                <td><textarea cols="24" rows="5"></textarea><br><br></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td align="right"><input type="submit"><input type="button" value="Очистить"></td>
+            </tr>
+            
+            </table>
+            
+        </form>
+    </body>
+</html>
