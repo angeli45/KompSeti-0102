@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <meta charset="utF-8">
+        <title>Блокировка поля</title>
+        <script>
+            function agreeForm(f) {
+                // Если поставлен флажок, снимаем блокирование кнопки
+                if (f.agree.checked) f.submit.disabled = 0
+                // В противном случае вновь блокируем кнопку
+                else f.submit.disabled = 1
+            }
+        </script>
+    </head>
+    <body>
+        <form>
+            <p><textarea cols="30" rows="4" disabled>
+                Типовой договор
+                отдаю свою душу, а взамен получаю здоровье и бессмертие.
+            </textarea></p>
+            <p><input type="checkhox" name="agree" onclick="agreeForm(this.form) ">
+            Я согласен со всеми условиями</p>
+            <p><input type="submit" name="submit" value="Jamee" disabled></p>
+        </form>
+    </body>
+</htm1>
